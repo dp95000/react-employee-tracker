@@ -1,13 +1,54 @@
 body {
+  padding: 3em;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('../src/img/books-file-on-shelf.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.76);
+
+}
+
+.intro {
+  color: #fff;
+  text-align: center;
+  font-size: 1.3em;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.76);
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  background-color: blue;
+  color: #fff;
+  padding: .6em;
+  cursor: pointer;
+}
+
+td {
+  background-color: #fff;
+  padding: .3em;
 }
